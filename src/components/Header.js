@@ -1,15 +1,19 @@
 import React from 'react'
+import Link from 'gatsby-link'
+
+import avatar from '../images/icon.png'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            {/* <span className="icon fa-diamond"></span> */}
+            <img className="avatar" src={avatar} alt="" />
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Hi, I'm nabeen.</h1>
+                <p>This is nabeen's Portfolio Site.</p>
+                <p>If you want to hire me, please send me a Pull Request to this repository.</p>
             </div>
         </div>
         <nav>
