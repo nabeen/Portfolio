@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
 
 class Main extends React.Component {
   render() {
@@ -16,51 +17,64 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <p>Hi, I'm nabeen.</p>
+          <p>💪Job: Software Engineer / 😍Likes: Blockchain, Cryptocurrency, AirDrop / 😎Target: Remote worker:D / 👍Skills: Blogger, Investor, Columnist, Engineering</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>My Career</p>
+          <h3>Apr. 2008 - Feb. 2013</h3>
+          <p>QA Engineer.<br />
+          salary : about $42,000 per year</p>
+          <h3>Mar. 2013 - Sep. 2013</h3>
+          <p>Developer. #HTML #CSS #JavaScript #jQuery #PHP<br />
+          salary : about $34,000 per year</p>
+          <h3>Des. 2013 - Apr. 2016</h3>
+          <p>Developer. #PHP #CakePHP #Phalcon #HTML #CSS #JavaScript<br />
+          salary : about $35,000 per year</p>
+          <h3>Jun. 2016 - currently</h3>
+          <p>Developer. #PHP #Codeigniter #Python #Perl #Ruby #RoR #Swift #NodeJS #HTML #CSS #JavaScript<br />
+          salary : about $46,000 per year</p>
+          <h3>??? - ???</h3>
+          <p>!!WANTED!! OVER $50,000 per year or remote working :D</p>
+          <hr />
+          <p>My LT</p>
+          <ul>
+            <li><a href="https://speakerdeck.com/nabeen/php-conference-fukuoka-2017">僕達がやってきたレガシープロジェクトとの付き合い方</a> at PHPカンファレンス福岡2017</li>
+            <li><a href="https://speakerdeck.com/nabeen/listen-to-me-lt-tournament-number-7">師走にやる気が生まれて師走にやる気が死んだ話</a> at 俺の話を聞け！！LT大会 #7</li>
+          </ul>
+          <hr />
+          <p>My OSS</p>
+          <ul>
+            <li><a href="https://github.com/nabeen/linebot-sls-bp-kotlin">linebot-sls-bp-kotlin</a> / LINE BOT written in Kotlin running on AWS Lambda</li>
+            <li><a href="https://github.com/nabeen/gdwrap">gdwrap</a> / wrapper library for Google Drive REST API</li>
+            <li><a href="https://github.com/nabeen/mbglob">mbglob</a> / wrapper library for glob.glob()</li>
+          </ul>
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+        <article id="link" className={`${this.props.article === 'link' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Link</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>Blog list I contributed.</p>
+          <ul>
+            <li><a href="#">⌘+C, ⌘+V</a> / Tech Blog on Firebase Hosting</li>
+            <li><a href="#">⌘+C, ⌘+V DailyLog</a> / Tech Blog on Medium</li>
+            {/* <li><a href="#">BEBEBE</a> / Personal Blog on Blogger</li> */}
+          </ul>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
+          <span className="image main"><img src={pic04} alt="" /></span>
+          <p>You can contact me with Twitter or Facebook. Follow me on these SNS and send DM, please.</p>
           <ul className="icons">
             <li><a href="https://twitter.com/_nabeen" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="https://www.facebook.com/kenichirow" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/nabeen919" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="https://github.com/nabeen" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
