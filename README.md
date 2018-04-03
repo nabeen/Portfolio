@@ -1,13 +1,13 @@
-# gatsby-starter-dimension
-Gatsby starter based on the Dimension site template, designed by [HTML5 UP](https://html5up.net/dimension). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# Portfolio Site
 
-## Preview
+This is nabeen's Portfoli Site build by [GatsbyJS](https://www.gatsbyjs.org/).
 
-http://gatsby-dimension.surge.sh/
+If you want to hire me, please send me a Pull Request to this repository.
 
-## Installation
+This design based on [gatsby-starter-dimension](https://github.com/ChangoMan/gatsby-starter-dimension).
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-dimension https://github.com/ChangoMan/gatsby-starter-dimension`
+## Infrastructure
 
-Run `gatsby develop` in the terminal to start.
+* Hosting / Firebase Hosting
+* DNS / AWS Route53
+* CI / undecided (It will use Circle CI)
