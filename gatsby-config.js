@@ -42,11 +42,27 @@ module.exports = {
         start_url: "/",
         background_color: "#f7f0eb",
         theme_color: "#a2466c",
-        display: "minimal-ui",
+        display: "standalone",
+        orientation: "portrait",
         icons: [
           {
-            src: `/icon/favicon.png`,
-            sizes: `300x300`,
+            src: `/icon/favicon-192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/icon/favicon-256.png`,
+            sizes: `256x256`,
+            type: `image/png`,
+          },
+          {
+            src: `/icon/favicon-384.png`,
+            sizes: `384x384`,
+            type: `image/png`,
+          },
+          {
+            src: `/icon/favicon-512.png`,
+            sizes: `512x512`,
             type: `image/png`,
           },
         ],
@@ -55,6 +71,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-offline`
   ],
 }
