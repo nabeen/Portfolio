@@ -34,6 +34,24 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "nabeen.be",
+        short_name: "nabeen.be",
+        start_url: "/",
+        background_color: "#f7f0eb",
+        theme_color: "#a2466c",
+        display: "minimal-ui",
+        icons: [
+          {
+            src: `/icon/favicon.png`,
+            sizes: `300x300`,
+            type: `image/png`,
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
