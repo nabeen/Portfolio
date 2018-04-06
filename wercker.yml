@@ -10,7 +10,11 @@ build:
         gatsby build
 deploy:
   steps:
-    - devillex/firebase-deploy@1.1.0:
-        project: nabeen-portfolio
-        token: $FIREBASE_TOKEN
-        only: hosting
+    - script:
+      name: install firebase cli
+      code: |
+        npm install -g firebase cli
+    - script:
+      name: deploy firebase
+      code: |
+        firebase deploy --project "$FIREBASE_PROJECT" --token "$FIREBASE_TOKEN" --only hosting
