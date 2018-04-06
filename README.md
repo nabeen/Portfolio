@@ -10,6 +10,6 @@ This design based on [gatsby-starter-dimension](https://github.com/ChangoMan/gat
 
 ## Infrastructure
 
-* Hosting / Firebase Hosting
-* DNS / AWS Route53
-* CI / undecided (It will use Circle CI)
+* Hosting: Firebase Hosting
+* CD / CI: wercker (build and deploy)
+* DNS: AWS Route53
