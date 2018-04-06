@@ -2,7 +2,7 @@
 
 # Portfolio Site
 
-This is nabeen's Portfoli Site build by [GatsbyJS](https://www.gatsbyjs.org/).
+This is nabeen's Portfolio Site build by [GatsbyJS](https://www.gatsbyjs.org/).
 
 If you want to hire me, please send me a Pull Request to this repository.
 
