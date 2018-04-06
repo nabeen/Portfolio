@@ -15,10 +15,10 @@ const Header = (props) => (
                 <p>This is nabeen's Portfolio Site.</p>
                 <p>If you want to hire me, please send me a Pull Request to this repository.</p>
                 <ul className="icons">
-                    <li><a href="https://twitter.com/_nabeen" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/kenichirow" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/nabeen919" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/nabeen" className="icon fa-github"><span className="label">GitHub</span></a></li>
+                    <li><a href="https://twitter.com/_nabeen" aria-label="twitter" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+                    <li><a href="https://www.facebook.com/kenichirow" aria-label="facebook" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/nabeen919" aria-label="instagram" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/nabeen" aria-label="github" className="icon fa-github"><span className="label">GitHub</span></a></li>
                 </ul>
             </div>
         </div>
