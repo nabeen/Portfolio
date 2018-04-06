@@ -1,0 +1,15 @@
+
+box: node
+build:
+  steps:
+    - script:
+      name: npm build
+      code: |
+        npm install -g gatsby
+        gatsby build
+deploy:
+  steps:
+    - devillex/firebase-deploy@1.1.0:
+        project: nabeen-portfolio
+        token: $FIREBASE_TOKEN
+        only: hosting
