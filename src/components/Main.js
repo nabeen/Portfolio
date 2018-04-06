@@ -61,7 +61,7 @@ class Main extends React.Component {
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>Blog list I contributed.</p>
           <ul>
-            <li><a href="https://nabeen.github.io/">⌘+C, ⌘+V</a> / Tech Blog on Firebase Hosting</li>
+            <li><a href="https://tech.nabeen.be/">⌘+C, ⌘+V</a> / Tech Blog on Firebase Hosting</li>
             <li><a href="https://medium.com/nabeen">⌘+C, ⌘+V DailyLog</a> / Tech Blog on Medium</li>
             {/* <li><a href="#">BEBEBE</a> / Personal Blog on Blogger</li> */}
           </ul>
