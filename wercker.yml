@@ -6,6 +6,7 @@ build:
       name: npm build
       code: |
         npm install -g gatsby
+        yarn install
         gatsby build
 deploy:
   steps:
