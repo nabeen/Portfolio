@@ -13,7 +13,7 @@ const Header = (props) => (
             <div className="inner">
                 <h1>Hi, I'm nabeen.</h1>
                 <p>This is nabeen's Portfolio Site.</p>
-                <p>If you want to hire me, please send me a Pull Request to this repository.</p>
+                <p>If you want to hire me, please send me a Pull Request to <a href="https://github.com/nabeen/Portfolio" aria-label="repository">this repository</a>.</p>
                 <ul className="icons">
                     <li><a href="https://twitter.com/_nabeen" aria-label="twitter" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
                     <li><a href="https://www.facebook.com/kenichirow" aria-label="facebook" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
